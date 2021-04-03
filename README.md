@@ -6,6 +6,22 @@ npm install
 sh install_wasm_exec.sh
 ```
 
+## Edit project info
+
+- package.json:
+  Edit `name` and `version` as you like.
+
+```
+  "name": "vue-electron-go-wasm",
+  "version": "0.1.0",
+```
+
+- `go.mod`:
+  Edit user and project in the package path.
+```
+  module github.com/<USER>/<PROJECT>
+```
+
 ### Edit go/main.go file and Make
 ```
 make
